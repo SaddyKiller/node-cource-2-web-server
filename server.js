@@ -3,7 +3,7 @@ const hbs = require('hbs')
 const path = require('path')
 const fs = require('fs')
 
-const serverPort = 3001
+const serverPort = process.env.PORT || 3001;
 
 var app = express()
 
